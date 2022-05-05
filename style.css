@@ -1,0 +1,44 @@
+.container {
+	max-width: 840px;
+	margin: auto;
+}
+.introduction {
+	text-align: center;
+}
+.about-grid {
+	display: grid;
+	grid-template-columns:50% 50%;
+}
+.i-am, .i-like {
+	text-align: center;
+}
+.about-list {
+	list-style: none;
+}
+@media (max-width 400px) {
+	.about-grid {
+		grid-template-columns: 100% ;
+	}
+}
+
+.projects-heading {
+	text-align: center;
+	margin: auto;
+}
+
+.project-grid {
+	display: grid;
+	grid-template-columns: 50% 50%;
+
+}
+
+.project-image {
+	justify-self: center;
+	padding: 4%;
+}
+
+@media (max-width 650px) {
+	.project-grid {
+		grid-template-columns: 100%;
+	}
+}
